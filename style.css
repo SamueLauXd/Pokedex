@@ -1,0 +1,175 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 15pt;
+    text-align: center;
+
+}
+
+h3{
+    font-size: 11pt;
+}
+
+.contenedor-bulbasur h3{
+    color: rgb(0, 122, 122);
+}
+
+.contenedor-charmander h3{
+    color: rgb(144, 93, 0);
+}
+
+.contenedor-squirtle h3{
+    color: rgb(14, 113, 80);
+}
+
+.contenedor-general{
+    padding: 20px;
+}
+
+.contenedor-squirtle img{
+    min-width: 100px;
+}
+
+.contenedor-charmander img{
+    min-width: 100px;
+}
+
+.contenedor-bulbasur img{
+    min-width: 100px;
+}
+
+.contenedor-bulbasur{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    background-color: rgb(124, 255, 255);
+    border-radius: 10px;
+    padding: 30px 20px 30px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: box-shadow, .2s;
+}
+
+.contenedor-bulbasur:hover{
+    box-shadow: rgb(0, 211, 211) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.contenedor-charmander{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    background-color: rgb(255, 198, 91);
+    border-radius: 10px;
+    padding: 30px 20px 30px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: box-shadow, .2s;
+}
+
+.contenedor-charmander:hover{
+    box-shadow: rgb(204, 133, 0) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.contenedor-squirtle{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    background-color: rgb(151, 255, 220);
+    border-radius: 10px;
+    padding: 30px 20px 30px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: box-shadow, .2s;
+}
+
+.contenedor-squirtle:hover{
+    box-shadow: rgb(67, 211, 163) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.contenedor-pokemones{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.tutorial{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.detalle-pokemon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.detalle-charmander{
+    max-width: 240px;
+    background-color: rgb(163, 118, 35);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.detalle-charmander div{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    background-color: rgb(255, 198, 91);
+    margin: 10px;
+}
+
+.detalle-squirtle{
+    max-width: 240px;
+    background-color: rgb(207, 255, 239);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.detalle-squirtle div{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    background-color: rgb(151, 255, 220);
+    margin: 10px;
+}
+
+.detalle-bulbasur{
+    max-width: 240px;
+    background-color: rgb(204, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.detalle-bulbasur div{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    background-color: rgb(124, 255, 255);
+    margin: 10px;
+}
+
+.detalle-charmander  div img, .detalle-squirtle div img, .detalle-bulbasur div img{
+    width: 25px;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
